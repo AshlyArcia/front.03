@@ -1,0 +1,34 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+  --dark-bg:#0a0a0a;
+  --darker-bg: #050505;
+  --accent: #2ecc71;
+  --accent-glow: rgba(56,204,113,0.4);
+  --text: #ffffff;
+}
+
+body{
+background-color: var(--dark-bg);
+color: var(--text);
+line-height: 1.6;
+overflow: hidden;
+}
+
+ 
+.so-far-away {
+background-color: rgb(255, 187, 187);
+padding: 20px;
+color: rgb(255, 187, 187);
+
+}
+
+.a-little-piece-of-heaven {
+gap: 20%;
+display: flex;
+align-items: center;
+}
