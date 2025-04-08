@@ -21,9 +21,9 @@ overflow: hidden;
 
  
 .so-far-away {
-background-color: rgb(255, 187, 187);
+background-color: rgb(255, 255, 255);
 padding: 20px;
-color: rgb(255, 187, 187);
+color: rgb(255, 255, 255);
 
 }
 
@@ -31,4 +31,18 @@ color: rgb(255, 187, 187);
 gap: 20%;
 display: flex;
 align-items: center;
+}
+
+.hero{
+min-height: 100vh;
+display:flex;
+align-items:center;
+padding:12% 5% ;
+background: radial-gradient(circle at 75% 30%)
+var(--acent-glow)0%, transparent 30%;
+}
+
+.hero-content{
+flex:1;
+padding: right 5rem; ;
 }
