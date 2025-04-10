@@ -51,16 +51,16 @@ padding: 1.5rem 5%;
 display: flex;
 justify-content: space-between;
 align-items: center;
-background: rgba(250, 154, 154, 0.95);
+background: rgba(36, 13, 127, 0.582);
 backdrop-filter: blur(10px);
 z-index: 1000;
-border-bottom: 1px solid rgba(255, 167, 167, 0.582);
+border-bottom: 1px solid rgba(36, 13, 127, 0.582);
 }
 
 .ax7 {
 font-size: 1.8rem;
 font-weight: 700;
-color: #000000;
+color: #ffffff;
 text-decoration: none;
 position: relative;
 padding-left: 2.5rem;
@@ -96,7 +96,10 @@ transition: width 0.3s ease;
 width: 100%;
 }
 
-.hero-imagem{
-width: 50px;
-position: center ;
+
+.imagembr {
+width: 300px;
+height: 300px;
+
+
 }
